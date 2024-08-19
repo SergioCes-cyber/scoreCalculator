@@ -10,11 +10,9 @@ console.log("Please see below the list of grades");
 
 for (let i = 0; i <= studentsScore.length; i++) {
   if (studentsScore[i] >= 60)
-    console.log(`Estudiante numbero ${i} passed with a ${studentsScore[i]}`);
+    console.log(`Student number ${i} passed with a ${studentsScore[i]}`);
   else if (studentsScore[i] <= 60) {
-    console.log(
-      `Estudiante numbero ${i} didn't pass with a ${studentsScore[i]}`
-    );
+    console.log(`Student number ${i} didn't pass with a ${studentsScore[i]}`);
   }
 }
 
@@ -47,11 +45,11 @@ if (average >= 60) {
 for (let i = 0; i <= studentsScore.length; i++) {
   if (studentsScore[i] >= 60)
     console.log(
-      `Estudiante numbero ${i} passed with a ${studentsScore[i]} he/she has a calification over the average`
+      `Student number ${i} passed with a ${studentsScore[i]} he/she has a calification over the average`
     );
   else if (studentsScore[i] <= 59) {
     console.log(
-      `Estudiante numbero ${i} didn't pass with a ${studentsScore[i]} he/she has a calification below the average`
+      `Student number ${i} didn't pass with a ${studentsScore[i]} he/she has a calification below the average`
     );
   }
 }
